@@ -1,6 +1,14 @@
 # mswjs-learn
 
-This template should help get you started developing with Vue 3 in Vite.
+Project ini merupakan sample implementasi penggunaan [MSWJS](https://mswjs.io/) pada project VueJS 3.5x
+
+## Generate mockServiceWorker.js
+Perintah berikut akan menciptakan file mockServiceWorker.js dimana mocking Service Worker akan di intercept terlebih dahulu oleh file ini 
+```sh
+npx msw init public/ --save
+```
+
+***
 
 ## Recommended IDE Setup
 
